@@ -28,7 +28,7 @@ interface FilterState {
   confidence: Set<Confidence>;
   eventCountryOnly: boolean;
   needsReviewOnly: boolean;
-  selectedRecordKey: string | null;
+  selectedRowKey: string | null;
   initializeFromMeta: (meta: Meta) => void;
   setScopeGroups: (values: Set<string>) => void;
   setDiseases: (values: Set<string>) => void;
@@ -38,7 +38,7 @@ interface FilterState {
   setConfidence: (values: Set<Confidence>) => void;
   setEventCountryOnly: (value: boolean) => void;
   setNeedsReviewOnly: (value: boolean) => void;
-  setSelectedRecordKey: (value: string | null) => void;
+  setSelectedRowKey: (value: string | null) => void;
   reset: (meta: Meta) => void;
 }
 
@@ -51,7 +51,7 @@ export const useFilterStore = create<FilterState>((set) => ({
   confidence: new Set(defaultConfidence),
   eventCountryOnly: false,
   needsReviewOnly: false,
-  selectedRecordKey: null,
+  selectedRowKey: null,
   initializeFromMeta: (meta) =>
     set((state) => ({
       ...state,
@@ -66,7 +66,7 @@ export const useFilterStore = create<FilterState>((set) => ({
   setConfidence: (values) => set({ confidence: new Set(values) }),
   setEventCountryOnly: (value) => set({ eventCountryOnly: value }),
   setNeedsReviewOnly: (value) => set({ needsReviewOnly: value }),
-  setSelectedRecordKey: (value) => set({ selectedRecordKey: value }),
+  setSelectedRowKey: (value) => set({ selectedRowKey: value }),
   reset: (meta) =>
     set({
       scopeGroups: defaultScopeGroups(meta),
@@ -77,6 +77,6 @@ export const useFilterStore = create<FilterState>((set) => ({
       confidence: new Set(defaultConfidence),
       eventCountryOnly: false,
       needsReviewOnly: false,
-      selectedRecordKey: null,
+      selectedRowKey: null,
     }),
 }));

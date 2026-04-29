@@ -9,6 +9,7 @@ export type Source = "deterministic" | "llm";
 export type BooleanLike = boolean | "TRUE" | "FALSE";
 
 export interface Row {
+  row_key: string;
   record_key: string;
   don_id: string;
   record_id: string;

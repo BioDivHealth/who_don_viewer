@@ -236,7 +236,7 @@ export function FilterSidebar({ meta, rows }: FilterSidebarProps): JSX.Element {
       </section>
 
       <section className="space-y-2 border-t border-rule pt-4">
-        <SectionHeader title="Evidence confidence" />
+        <SectionHeader title="Scope confidence" />
         <div className="grid grid-cols-2 gap-2">
           {confidenceGroups
             .filter((group) => group.values[0] !== "not_applicable" || showNotApplicableConfidence)

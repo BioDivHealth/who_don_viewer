@@ -19,30 +19,6 @@ function highlightPhrase(text: string, phrase: string | null, markClassName: str
   return [before, <mark className={markClassName} key={phrase}>{phrase}</mark>, after];
 }
 
-function getEvidenceConfidence(row: Row): string {
-  if (row.scope_group === "not_event_country") {
-    return row.event_layer_confidence;
-  }
-
-  if (row.confidence === "manual_override_keep_non_strict") {
-    return row.event_layer_confidence;
-  }
-
-  return row.scope_confidence;
-}
-
-function getEvidenceConfidenceLabel(row: Row): string {
-  if (row.scope_group === "not_event_country") {
-    return "Event-layer confidence:";
-  }
-
-  if (row.confidence === "manual_override_keep_non_strict") {
-    return "Evidence confidence:";
-  }
-
-  return "Scope confidence:";
-}
-
 export function InspectorPanel({ row }: InspectorPanelProps): JSX.Element {
   if (!row) {
     return (
@@ -65,7 +41,7 @@ export function InspectorPanel({ row }: InspectorPanelProps): JSX.Element {
           rel="noreferrer"
           target="_blank"
         >
-          Open WHO DON article
+          View source article on WHO
           <ExternalLink size={14} strokeWidth={1.8} />
         </a>
       </section>
@@ -79,7 +55,7 @@ export function InspectorPanel({ row }: InspectorPanelProps): JSX.Element {
           <span className="label">Scope:</span> {row.scope_display || formatCodeLabel(row.scope)}
         </p>
         <p>
-          <span className="label">{getEvidenceConfidenceLabel(row)}</span> {formatCodeLabel(getEvidenceConfidence(row))}
+          <span className="label">Scope confidence:</span> {formatCodeLabel(row.scope_confidence)}
         </p>
         {row.manual_focal_review_decision === "keep_non_strict" ? (
           <div>
@@ -95,13 +71,10 @@ export function InspectorPanel({ row }: InspectorPanelProps): JSX.Element {
         <section className="space-y-2 border-b border-rule p-4 text-sm text-ink">
           <SectionHeader title="Event layer" />
           <p>
-            <span className="label">Event-layer confidence:</span> {formatCodeLabel(row.event_layer_confidence)}
+            <span className="label">Confidence:</span> {formatCodeLabel(row.event_layer_confidence)}
           </p>
           <p>
             <span className="label">Event-layer reasoning:</span> {formatCodeLabel(row.event_layer_reasoning)}
-          </p>
-          <p>
-            <span className="label">Needs review:</span> {row.event_layer_needs_review ? "Yes" : "No"}
           </p>
         </section>
       ) : null}
@@ -112,8 +85,22 @@ export function InspectorPanel({ row }: InspectorPanelProps): JSX.Element {
           <p className="text-sm text-ink">
             {highlightPhrase(row.evidence_sentence, row.trigger_phrase, "rounded-sm bg-accent/15 px-1 text-accent")}
           </p>
+        ) : row.evidence ? (
+          <div className="space-y-1">
+            <p className="font-mono text-[10px] uppercase tracking-normal text-ink-muted">Evidence span</p>
+            <p className="max-h-48 overflow-y-auto text-sm leading-relaxed text-ink">
+              {highlightPhrase(row.evidence, row.trigger_phrase, "rounded-sm bg-accent/15 px-1 text-accent")}
+            </p>
+          </div>
         ) : (
-          <p className="text-sm text-ink-muted">No evidence sentence captured for this record.</p>
+          <div className="space-y-2">
+            <p className="text-sm text-ink-muted">No evidence sentence or span captured for this record.</p>
+            {row.title ? (
+              <p className="text-sm leading-snug text-ink">
+                <span className="label">Article title:</span> {row.title}
+              </p>
+            ) : null}
+          </div>
         )}
         {row.exclusion_phrase ? (
           <p className="text-sm text-ink-muted">
@@ -121,6 +108,20 @@ export function InspectorPanel({ row }: InspectorPanelProps): JSX.Element {
           </p>
         ) : null}
       </section>
+
+      <details className="border-b border-rule">
+        <summary className="cursor-pointer list-none px-4 py-3 text-sm text-ink transition-colors hover:bg-paper-2">
+          <SectionHeader title="Provenance" />
+        </summary>
+        <div className="space-y-2 border-t border-rule p-4 text-sm text-ink">
+          <p>
+            <span className="label">Source:</span> {formatCodeLabel(row.source)}
+          </p>
+          <p>
+            <span className="label">Country role:</span> {row.country_role}
+          </p>
+        </div>
+      </details>
     </div>
   );
 }

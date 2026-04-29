@@ -163,13 +163,13 @@ export function useTimeline(rows: Row[]): TimelineBucket[] {
 }
 
 export function useSelectedRow(rows: Row[]): Row | null {
-  const selectedRecordKey = useFilterStore((s) => s.selectedRecordKey);
+  const selectedRowKey = useFilterStore((s) => s.selectedRowKey);
 
   return useMemo(() => {
-    if (!selectedRecordKey) {
+    if (!selectedRowKey) {
       return null;
     }
 
-    return rows.find((row) => row.record_key === selectedRecordKey) ?? null;
-  }, [rows, selectedRecordKey]);
+    return rows.find((row) => row.row_key === selectedRowKey) ?? null;
+  }, [rows, selectedRowKey]);
 }

@@ -20,6 +20,13 @@ async function fetchJson<T>(url: string): Promise<T> {
   return (await response.json()) as T;
 }
 
+function assignRowKeys(rows: Row[]): Row[] {
+  return rows.map((row, index) => ({
+    ...row,
+    row_key: `${row.record_key}__${index}`,
+  }));
+}
+
 function buildDiseaseMeta(rows: Row[]): DiseaseMeta[] {
   const counts = new Map<string, number>();
 
@@ -135,9 +142,10 @@ function deriveMeta(rows: Row[], meta: Meta): Meta {
 
 export async function loadData(): Promise<DataBundle> {
   const [rows, meta] = await Promise.all([fetchJson<Row[]>(ROWS_URL), fetchJson<Meta>(META_URL)]);
+  const keyedRows = assignRowKeys(rows);
 
   return {
-    rows,
-    meta: deriveMeta(rows, meta),
+    rows: keyedRows,
+    meta: deriveMeta(keyedRows, meta),
   };
 }
