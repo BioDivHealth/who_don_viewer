@@ -2,6 +2,10 @@
   "name": "who-don-explorer",
   "private": true,
   "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BioDivHealth/who_don_viewer.git"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
