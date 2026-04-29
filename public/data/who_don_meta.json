@@ -1,0 +1,2987 @@
+{
+  "generated_at": "2026-04-29T10:14:32Z",
+  "n_rows_total": 10097,
+  "n_rows_strict": 4300,
+  "n_rows_event": 4300,
+  "n_don_records": 3086,
+  "n_don_records_strict": 2098,
+  "n_diseases": 124,
+  "n_diseases_strict": 105,
+  "n_countries": 195,
+  "n_countries_strict": 174,
+  "date_min": "1996-01-22",
+  "date_max": "2026-04-10",
+  "data_source": "who_don_country_disease_event_focal_scope_evidence_final.csv",
+  "strict_analysis_source": "who_don_country_disease_event_focal_modelling_ready_final_analysis.csv",
+  "generic_disease_labels": ["Influenza", "Acute respiratory syndrome", "Acute respiratory infection", "Haemorrhagic fever syndrome", "Acute haemorrhagic fever syndrome", "Vaccine-derived poliovirus", "Acute febrile illness", "Acute fever and rash syndrome", "Acute watery diarrhoea", "Bloody diarrhoea", "Cluster of unexplained community deaths", "Acute neurological syndrome", "Acute encephalitis syndrome"],
+  "diseases": [
+    {
+      "disease": "Influenza A(H1N1)",
+      "n": 2777
+    },
+    {
+      "disease": "Ebola virus disease",
+      "n": 779
+    },
+    {
+      "disease": "Influenza A(H5N1)",
+      "n": 615
+    },
+    {
+      "disease": "Middle East Respiratory Syndrome (MERS)",
+      "n": 565
+    },
+    {
+      "disease": "Cholera",
+      "n": 528
+    },
+    {
+      "disease": "Yellow fever",
+      "n": 391
+    },
+    {
+      "disease": "Marburg virus disease",
+      "n": 311
+    },
+    {
+      "disease": "Haemorrhagic fever syndrome",
+      "n": 301
+    },
+    {
+      "disease": "Meningococcal disease",
+      "n": 301
+    },
+    {
+      "disease": "Dengue",
+      "n": 259
+    },
+    {
+      "disease": "Mpox (Monkeypox)",
+      "n": 242
+    },
+    {
+      "disease": "Severe Acute Respiratory Syndrome (SARS)",
+      "n": 236
+    },
+    {
+      "disease": "Measles",
+      "n": 179
+    },
+    {
+      "disease": "Acute respiratory syndrome",
+      "n": 177
+    },
+    {
+      "disease": "Influenza A(H7N9)",
+      "n": 169
+    },
+    {
+      "disease": "Vaccine-derived poliovirus",
+      "n": 165
+    },
+    {
+      "disease": "Influenza",
+      "n": 156
+    },
+    {
+      "disease": "Lassa fever",
+      "n": 153
+    },
+    {
+      "disease": "Circulating vaccine-derived poliovirus type 2",
+      "n": 144
+    },
+    {
+      "disease": "Salmonellosis",
+      "n": 144
+    },
+    {
+      "disease": "Poliomyelitis",
+      "n": 105
+    },
+    {
+      "disease": "Severe acute hepatitis of unknown aetiology",
+      "n": 84
+    },
+    {
+      "disease": "Zika virus disease",
+      "n": 76
+    },
+    {
+      "disease": "Plague",
+      "n": 75
+    },
+    {
+      "disease": "Rift Valley fever",
+      "n": 75
+    },
+    {
+      "disease": "Chikungunya",
+      "n": 72
+    },
+    {
+      "disease": "Wild poliovirus",
+      "n": 71
+    },
+    {
+      "disease": "Influenza A(H3N2)",
+      "n": 61
+    },
+    {
+      "disease": "Hepatitis E",
+      "n": 52
+    },
+    {
+      "disease": "Nipah virus disease",
+      "n": 52
+    },
+    {
+      "disease": "Listeriosis",
+      "n": 44
+    },
+    {
+      "disease": "Oropouche fever",
+      "n": 42
+    },
+    {
+      "disease": "Acute haemorrhagic fever syndrome",
+      "n": 38
+    },
+    {
+      "disease": "Anthrax",
+      "n": 38
+    },
+    {
+      "disease": "West Nile fever",
+      "n": 37
+    },
+    {
+      "disease": "Malaria",
+      "n": 24
+    },
+    {
+      "disease": "Encephalitis",
+      "n": 23
+    },
+    {
+      "disease": "Klebsiella infection (pneumonia sepsis)",
+      "n": 23
+    },
+    {
+      "disease": "Diphtheria",
+      "n": 20
+    },
+    {
+      "disease": "Shigellosis (bacillary dysentery)",
+      "n": 20
+    },
+    {
+      "disease": "Circulating vaccine-derived poliovirus type 1",
+      "n": 19
+    },
+    {
+      "disease": "Crimean-Congo hemorrhagic fever",
+      "n": 18
+    },
+    {
+      "disease": "Typhoid fever",
+      "n": 18
+    },
+    {
+      "disease": "Hepatitis A",
+      "n": 17
+    },
+    {
+      "disease": "Legionellosis",
+      "n": 17
+    },
+    {
+      "disease": "Botulism",
+      "n": 16
+    },
+    {
+      "disease": "Influenza A(H1N2)",
+      "n": 16
+    },
+    {
+      "disease": "Enterovirus infection",
+      "n": 15
+    },
+    {
+      "disease": "Sudan virus disease (Ebola virus disease)",
+      "n": 15
+    },
+    {
+      "disease": "Influenza A(H5N8)",
+      "n": 13
+    },
+    {
+      "disease": "COVID-19",
+      "n": 12
+    },
+    {
+      "disease": "Cereulide toxin contamination",
+      "n": 12
+    },
+    {
+      "disease": "Enterovirus-Echovirus 11 infection",
+      "n": 12
+    },
+    {
+      "disease": "Guillain-Barre Syndrome",
+      "n": 12
+    },
+    {
+      "disease": "Influenza A(H9N2)",
+      "n": 12
+    },
+    {
+      "disease": "Mayaro virus disease",
+      "n": 12
+    },
+    {
+      "disease": "Influenza A(H5N6)",
+      "n": 11
+    },
+    {
+      "disease": "Acute neurological syndrome",
+      "n": 10
+    },
+    {
+      "disease": "Influenza A(H5 subtype)",
+      "n": 9
+    },
+    {
+      "disease": "Microcephaly",
+      "n": 9
+    },
+    {
+      "disease": "Hand foot and mouth disease",
+      "n": 8
+    },
+    {
+      "disease": "Hantavirus disease",
+      "n": 8
+    },
+    {
+      "disease": "Rabies",
+      "n": 8
+    },
+    {
+      "disease": "Dracunculiasis",
+      "n": 7
+    },
+    {
+      "disease": "Myocarditis associated with enterovirus infection",
+      "n": 7
+    },
+    {
+      "disease": "Acute febrile illness",
+      "n": 6
+    },
+    {
+      "disease": "Acute respiratory infection",
+      "n": 6
+    },
+    {
+      "disease": "Hantavirus pulmonary syndrome",
+      "n": 6
+    },
+    {
+      "disease": "Psittacosis",
+      "n": 6
+    },
+    {
+      "disease": "Undiagnosed disease",
+      "n": 6
+    },
+    {
+      "disease": "Haemolytic uraemic syndrome",
+      "n": 5
+    },
+    {
+      "disease": "Lead intoxication",
+      "n": 5
+    },
+    {
+      "disease": "Leptospirosis",
+      "n": 5
+    },
+    {
+      "disease": "Scarlet fever",
+      "n": 5
+    },
+    {
+      "disease": "Tularemia",
+      "n": 5
+    },
+    {
+      "disease": "Western equine encephalitis",
+      "n": 5
+    },
+    {
+      "disease": "Acute respiratory infections complicated by malaria",
+      "n": 4
+    },
+    {
+      "disease": "Acute watery diarrhoea",
+      "n": 4
+    },
+    {
+      "disease": "Bloody diarrhoea",
+      "n": 4
+    },
+    {
+      "disease": "Invasive meningococcal disease",
+      "n": 4
+    },
+    {
+      "disease": "Japanese encephalitis",
+      "n": 4
+    },
+    {
+      "disease": "Leishmaniasis",
+      "n": 4
+    },
+    {
+      "disease": "Melamine contamination",
+      "n": 4
+    },
+    {
+      "disease": "Respiratory illness",
+      "n": 4
+    },
+    {
+      "disease": "Unknown illness",
+      "n": 4
+    },
+    {
+      "disease": "Dysentery",
+      "n": 3
+    },
+    {
+      "disease": "Enterohaemorrhagic Escherichia coli infection",
+      "n": 3
+    },
+    {
+      "disease": "Influenza A(H10N3)",
+      "n": 3
+    },
+    {
+      "disease": "Seoul virus disease",
+      "n": 3
+    },
+    {
+      "disease": "Suspected fungal meningitis",
+      "n": 3
+    },
+    {
+      "disease": "Undiagnosed illness",
+      "n": 3
+    },
+    {
+      "disease": "Acute diarrhoea",
+      "n": 2
+    },
+    {
+      "disease": "Coccidioidomycosis",
+      "n": 2
+    },
+    {
+      "disease": "Diarrhoeal disease",
+      "n": 2
+    },
+    {
+      "disease": "E. coli O157 infection",
+      "n": 2
+    },
+    {
+      "disease": "Hendra virus infection",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H10N5)",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H3N8)",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H5N2)",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H7N2)",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H7N7)",
+      "n": 2
+    },
+    {
+      "disease": "Pertussis",
+      "n": 2
+    },
+    {
+      "disease": "Streptococcus suis infection",
+      "n": 2
+    },
+    {
+      "disease": "Undiagnosed febrile illness",
+      "n": 2
+    },
+    {
+      "disease": "Acute encephalitis syndrome due to Chandipura virus",
+      "n": 1
+    },
+    {
+      "disease": "Acute fever and rash syndrome",
+      "n": 1
+    },
+    {
+      "disease": "Bovine spongiform encephalopathy",
+      "n": 1
+    },
+    {
+      "disease": "Buffalopox",
+      "n": 1
+    },
+    {
+      "disease": "Chapare haemorrhagic fever",
+      "n": 1
+    },
+    {
+      "disease": "Cluster of unexplained community deaths",
+      "n": 1
+    },
+    {
+      "disease": "Creutzfeldt-Jakob disease",
+      "n": 1
+    },
+    {
+      "disease": "Elizabethkingia infection",
+      "n": 1
+    },
+    {
+      "disease": "Enterovirus D68 respiratory disease",
+      "n": 1
+    },
+    {
+      "disease": "Extensively drug-resistant tuberculosis",
+      "n": 1
+    },
+    {
+      "disease": "HIV",
+      "n": 1
+    },
+    {
+      "disease": "Hemorrhagic fever with renal syndrome (Hantaan virus)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H1 subtype)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H5N5)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H7 subtype)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H7N4)",
+      "n": 1
+    },
+    {
+      "disease": "Louse-borne typhus",
+      "n": 1
+    },
+    {
+      "disease": "Pneumonia of unknown cause",
+      "n": 1
+    },
+    {
+      "disease": "Smallpox vaccine exposure",
+      "n": 1
+    },
+    {
+      "disease": "Venezuelan equine encephalitis",
+      "n": 1
+    }
+  ],
+  "strict_diseases": [
+    {
+      "disease": "Influenza A(H1N1)",
+      "n": 1704
+    },
+    {
+      "disease": "Influenza A(H5N1)",
+      "n": 398
+    },
+    {
+      "disease": "Middle East Respiratory Syndrome (MERS)",
+      "n": 342
+    },
+    {
+      "disease": "Ebola virus disease",
+      "n": 313
+    },
+    {
+      "disease": "Cholera",
+      "n": 167
+    },
+    {
+      "disease": "Yellow fever",
+      "n": 128
+    },
+    {
+      "disease": "Influenza A(H7N9)",
+      "n": 124
+    },
+    {
+      "disease": "Haemorrhagic fever syndrome",
+      "n": 98
+    },
+    {
+      "disease": "Meningococcal disease",
+      "n": 96
+    },
+    {
+      "disease": "Dengue",
+      "n": 70
+    },
+    {
+      "disease": "Measles",
+      "n": 60
+    },
+    {
+      "disease": "Marburg virus disease",
+      "n": 59
+    },
+    {
+      "disease": "Poliomyelitis",
+      "n": 50
+    },
+    {
+      "disease": "Severe Acute Respiratory Syndrome (SARS)",
+      "n": 48
+    },
+    {
+      "disease": "Zika virus disease",
+      "n": 46
+    },
+    {
+      "disease": "Mpox (Monkeypox)",
+      "n": 37
+    },
+    {
+      "disease": "Rift Valley fever",
+      "n": 36
+    },
+    {
+      "disease": "Circulating vaccine-derived poliovirus type 2",
+      "n": 35
+    },
+    {
+      "disease": "Influenza",
+      "n": 34
+    },
+    {
+      "disease": "Vaccine-derived poliovirus",
+      "n": 34
+    },
+    {
+      "disease": "Lassa fever",
+      "n": 30
+    },
+    {
+      "disease": "Acute respiratory syndrome",
+      "n": 25
+    },
+    {
+      "disease": "Plague",
+      "n": 21
+    },
+    {
+      "disease": "Chikungunya",
+      "n": 20
+    },
+    {
+      "disease": "Wild poliovirus",
+      "n": 16
+    },
+    {
+      "disease": "Diphtheria",
+      "n": 15
+    },
+    {
+      "disease": "Influenza A(H3N2)",
+      "n": 15
+    },
+    {
+      "disease": "Severe acute hepatitis of unknown aetiology",
+      "n": 14
+    },
+    {
+      "disease": "West Nile fever",
+      "n": 12
+    },
+    {
+      "disease": "Influenza A(H5N6)",
+      "n": 11
+    },
+    {
+      "disease": "Nipah virus disease",
+      "n": 11
+    },
+    {
+      "disease": "Oropouche fever",
+      "n": 11
+    },
+    {
+      "disease": "Acute haemorrhagic fever syndrome",
+      "n": 9
+    },
+    {
+      "disease": "Hepatitis E",
+      "n": 9
+    },
+    {
+      "disease": "Legionellosis",
+      "n": 9
+    },
+    {
+      "disease": "Sudan virus disease (Ebola virus disease)",
+      "n": 9
+    },
+    {
+      "disease": "Botulism",
+      "n": 8
+    },
+    {
+      "disease": "Encephalitis",
+      "n": 8
+    },
+    {
+      "disease": "Guillain-Barre Syndrome",
+      "n": 8
+    },
+    {
+      "disease": "Microcephaly",
+      "n": 8
+    },
+    {
+      "disease": "Circulating vaccine-derived poliovirus type 1",
+      "n": 7
+    },
+    {
+      "disease": "Crimean-Congo hemorrhagic fever",
+      "n": 6
+    },
+    {
+      "disease": "Enterovirus-Echovirus 11 infection",
+      "n": 6
+    },
+    {
+      "disease": "Influenza A(H5 subtype)",
+      "n": 6
+    },
+    {
+      "disease": "Influenza A(H9N2)",
+      "n": 6
+    },
+    {
+      "disease": "Malaria",
+      "n": 6
+    },
+    {
+      "disease": "Typhoid fever",
+      "n": 6
+    },
+    {
+      "disease": "Anthrax",
+      "n": 5
+    },
+    {
+      "disease": "Influenza A(H1N2)",
+      "n": 5
+    },
+    {
+      "disease": "Listeriosis",
+      "n": 5
+    },
+    {
+      "disease": "Salmonellosis",
+      "n": 5
+    },
+    {
+      "disease": "Shigellosis (bacillary dysentery)",
+      "n": 5
+    },
+    {
+      "disease": "Enterovirus infection",
+      "n": 4
+    },
+    {
+      "disease": "Leptospirosis",
+      "n": 4
+    },
+    {
+      "disease": "Japanese encephalitis",
+      "n": 3
+    },
+    {
+      "disease": "Myocarditis associated with enterovirus infection",
+      "n": 3
+    },
+    {
+      "disease": "Rabies",
+      "n": 3
+    },
+    {
+      "disease": "Undiagnosed illness",
+      "n": 3
+    },
+    {
+      "disease": "Acute neurological syndrome",
+      "n": 2
+    },
+    {
+      "disease": "Acute watery diarrhoea",
+      "n": 2
+    },
+    {
+      "disease": "Dracunculiasis",
+      "n": 2
+    },
+    {
+      "disease": "Hand foot and mouth disease",
+      "n": 2
+    },
+    {
+      "disease": "Hantavirus disease",
+      "n": 2
+    },
+    {
+      "disease": "Hantavirus pulmonary syndrome",
+      "n": 2
+    },
+    {
+      "disease": "Hendra virus infection",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H3N8)",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H5N2)",
+      "n": 2
+    },
+    {
+      "disease": "Influenza A(H7N7)",
+      "n": 2
+    },
+    {
+      "disease": "Leishmaniasis",
+      "n": 2
+    },
+    {
+      "disease": "Melamine contamination",
+      "n": 2
+    },
+    {
+      "disease": "Psittacosis",
+      "n": 2
+    },
+    {
+      "disease": "Seoul virus disease",
+      "n": 2
+    },
+    {
+      "disease": "Suspected fungal meningitis",
+      "n": 2
+    },
+    {
+      "disease": "Undiagnosed disease",
+      "n": 2
+    },
+    {
+      "disease": "Western equine encephalitis",
+      "n": 2
+    },
+    {
+      "disease": "Acute encephalitis syndrome due to Chandipura virus",
+      "n": 1
+    },
+    {
+      "disease": "Acute febrile illness",
+      "n": 1
+    },
+    {
+      "disease": "Acute fever and rash syndrome",
+      "n": 1
+    },
+    {
+      "disease": "Acute respiratory infection",
+      "n": 1
+    },
+    {
+      "disease": "Acute respiratory infections complicated by malaria",
+      "n": 1
+    },
+    {
+      "disease": "Bloody diarrhoea",
+      "n": 1
+    },
+    {
+      "disease": "Chapare haemorrhagic fever",
+      "n": 1
+    },
+    {
+      "disease": "Cluster of unexplained community deaths",
+      "n": 1
+    },
+    {
+      "disease": "Coccidioidomycosis",
+      "n": 1
+    },
+    {
+      "disease": "Diarrhoeal disease",
+      "n": 1
+    },
+    {
+      "disease": "Elizabethkingia infection",
+      "n": 1
+    },
+    {
+      "disease": "Enterohaemorrhagic Escherichia coli infection",
+      "n": 1
+    },
+    {
+      "disease": "Hepatitis A",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H10N3)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H10N5)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H5N5)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H5N8)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H7 subtype)",
+      "n": 1
+    },
+    {
+      "disease": "Influenza A(H7N2)",
+      "n": 1
+    },
+    {
+      "disease": "Invasive meningococcal disease",
+      "n": 1
+    },
+    {
+      "disease": "Lead intoxication",
+      "n": 1
+    },
+    {
+      "disease": "Mayaro virus disease",
+      "n": 1
+    },
+    {
+      "disease": "Pertussis",
+      "n": 1
+    },
+    {
+      "disease": "Pneumonia of unknown cause",
+      "n": 1
+    },
+    {
+      "disease": "Respiratory illness",
+      "n": 1
+    },
+    {
+      "disease": "Smallpox vaccine exposure",
+      "n": 1
+    },
+    {
+      "disease": "Streptococcus suis infection",
+      "n": 1
+    },
+    {
+      "disease": "Tularemia",
+      "n": 1
+    },
+    {
+      "disease": "Undiagnosed febrile illness",
+      "n": 1
+    },
+    {
+      "disease": "Unknown illness",
+      "n": 1
+    }
+  ],
+  "disease_groups": [
+    {
+      "disease_group": "Influenza",
+      "disease_group_display": "Influenza [all]",
+      "n": 3856
+    },
+    {
+      "disease_group": "Ebola virus disease",
+      "disease_group_display": "Ebola virus disease [all]",
+      "n": 794
+    },
+    {
+      "disease_group": "Poliovirus / poliomyelitis",
+      "disease_group_display": "Poliovirus / poliomyelitis [all]",
+      "n": 504
+    },
+    {
+      "disease_group": "Hepatitis",
+      "disease_group_display": "Hepatitis [all]",
+      "n": 153
+    },
+    {
+      "disease_group": "Enterovirus",
+      "disease_group_display": "Enterovirus [all]",
+      "n": 42
+    },
+    {
+      "disease_group": "Hantavirus",
+      "disease_group_display": "Hantavirus [all]",
+      "n": 17
+    },
+    {
+      "disease_group": "Undiagnosed / unknown illness",
+      "disease_group_display": "Undiagnosed / unknown illness [all]",
+      "n": 17
+    }
+  ],
+  "strict_disease_groups": [
+    {
+      "disease_group": "Influenza",
+      "disease_group_display": "Influenza [all]",
+      "n": 2315
+    },
+    {
+      "disease_group": "Ebola virus disease",
+      "disease_group_display": "Ebola virus disease [all]",
+      "n": 322
+    },
+    {
+      "disease_group": "Poliovirus / poliomyelitis",
+      "disease_group_display": "Poliovirus / poliomyelitis [all]",
+      "n": 142
+    },
+    {
+      "disease_group": "Hepatitis",
+      "disease_group_display": "Hepatitis [all]",
+      "n": 24
+    },
+    {
+      "disease_group": "Enterovirus",
+      "disease_group_display": "Enterovirus [all]",
+      "n": 15
+    },
+    {
+      "disease_group": "Undiagnosed / unknown illness",
+      "disease_group_display": "Undiagnosed / unknown illness [all]",
+      "n": 9
+    },
+    {
+      "disease_group": "Hantavirus",
+      "disease_group_display": "Hantavirus [all]",
+      "n": 6
+    }
+  ],
+  "scope_counts": [
+    {
+      "don_country_report_scope": "historical_or_background_context_country",
+      "scope_display": "Historical/background context country",
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 101
+    },
+    {
+      "don_country_report_scope": "historical_outbreak_background",
+      "scope_display": "Historical outbreak background",
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 54
+    },
+    {
+      "don_country_report_scope": "border_or_neighbouring_context_country",
+      "scope_display": "Border/neighbouring context country",
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 36
+    },
+    {
+      "don_country_report_scope": "reported_from_other_countries_background",
+      "scope_display": "Reported from other countries/background",
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 25
+    },
+    {
+      "don_country_report_scope": "lab_or_partner_context_country",
+      "scope_display": "Lab/partner context country",
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 8
+    },
+    {
+      "don_country_report_scope": "title_country_with_context_signal",
+      "scope_display": "Title country with context signal",
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 8
+    },
+    {
+      "don_country_report_scope": "surveillance_or_sequence_context_country",
+      "scope_display": "Surveillance/sequence context country",
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 3
+    },
+    {
+      "don_country_report_scope": "focal_event_country",
+      "scope_display": "Focal event country",
+      "scope_group": "focal",
+      "scope_group_display": "Focal outbreak/reporting country",
+      "n": 4191
+    },
+    {
+      "don_country_report_scope": "focal_event_country_manual_override",
+      "scope_display": "Focal event country/manual override",
+      "scope_group": "focal",
+      "scope_group_display": "Focal outbreak/reporting country",
+      "n": 109
+    },
+    {
+      "don_country_report_scope": "secondary_local_transmission_country",
+      "scope_display": "Secondary local transmission country",
+      "scope_group": "imported_or_secondary",
+      "scope_group_display": "Imported/secondary transmission country",
+      "n": 31
+    },
+    {
+      "don_country_report_scope": "imported_case_country",
+      "scope_display": "Imported case country",
+      "scope_group": "imported_or_secondary",
+      "scope_group_display": "Imported/secondary transmission country",
+      "n": 27
+    },
+    {
+      "don_country_report_scope": "travel_or_import_context_country",
+      "scope_display": "Travel/import context country",
+      "scope_group": "imported_or_secondary",
+      "scope_group_display": "Imported/secondary transmission country",
+      "n": 26
+    },
+    {
+      "don_country_report_scope": "not_final_event_country",
+      "scope_display": "Not in final event-country layer",
+      "scope_group": "not_event_country",
+      "scope_group_display": "Not event-country layer",
+      "n": 5437
+    },
+    {
+      "don_country_report_scope": "uncertain_focality",
+      "scope_display": "Uncertain focality",
+      "scope_group": "review",
+      "scope_group_display": "Needs review",
+      "n": 41
+    }
+  ],
+  "scope_groups": [
+    {
+      "scope_group": "not_event_country",
+      "scope_group_display": "Not event-country layer",
+      "n": 5437
+    },
+    {
+      "scope_group": "focal",
+      "scope_group_display": "Focal outbreak/reporting country",
+      "n": 4300
+    },
+    {
+      "scope_group": "background_or_context",
+      "scope_group_display": "Background/context mention",
+      "n": 235
+    },
+    {
+      "scope_group": "imported_or_secondary",
+      "scope_group_display": "Imported/secondary transmission country",
+      "n": 84
+    },
+    {
+      "scope_group": "review",
+      "scope_group_display": "Needs review",
+      "n": 41
+    }
+  ],
+  "countries": [
+    {
+      "country": "China",
+      "iso3": "CHN",
+      "n": 473
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "iso3": "COD",
+      "n": 296
+    },
+    {
+      "country": "Saudi Arabia",
+      "iso3": "SAU",
+      "n": 257
+    },
+    {
+      "country": "United States",
+      "iso3": "USA",
+      "n": 257
+    },
+    {
+      "country": "Uganda",
+      "iso3": "UGA",
+      "n": 188
+    },
+    {
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "n": 173
+    },
+    {
+      "country": "United Kingdom",
+      "iso3": "GBR",
+      "n": 168
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "n": 163
+    },
+    {
+      "country": "Egypt",
+      "iso3": "EGY",
+      "n": 148
+    },
+    {
+      "country": "Canada",
+      "iso3": "CAN",
+      "n": 145
+    },
+    {
+      "country": "Nigeria",
+      "iso3": "NGA",
+      "n": 132
+    },
+    {
+      "country": "Vietnam",
+      "iso3": "VNM",
+      "n": 131
+    },
+    {
+      "country": "Brazil",
+      "iso3": "BRA",
+      "n": 126
+    },
+    {
+      "country": "Germany",
+      "iso3": "DEU",
+      "n": 121
+    },
+    {
+      "country": "Netherlands",
+      "iso3": "NLD",
+      "n": 111
+    },
+    {
+      "country": "South Korea",
+      "iso3": "KOR",
+      "n": 107
+    },
+    {
+      "country": "Angola",
+      "iso3": "AGO",
+      "n": 106
+    },
+    {
+      "country": "India",
+      "iso3": "IND",
+      "n": 104
+    },
+    {
+      "country": "South Africa",
+      "iso3": "ZAF",
+      "n": 104
+    },
+    {
+      "country": "Guinea",
+      "iso3": "GIN",
+      "n": 103
+    },
+    {
+      "country": "Thailand",
+      "iso3": "THA",
+      "n": 101
+    },
+    {
+      "country": "Spain",
+      "iso3": "ESP",
+      "n": 100
+    },
+    {
+      "country": "Kenya",
+      "iso3": "KEN",
+      "n": 98
+    },
+    {
+      "country": "Singapore",
+      "iso3": "SGP",
+      "n": 96
+    },
+    {
+      "country": "Italy",
+      "iso3": "ITA",
+      "n": 94
+    },
+    {
+      "country": "Senegal",
+      "iso3": "SEN",
+      "n": 94
+    },
+    {
+      "country": "Sudan",
+      "iso3": "SDN",
+      "n": 92
+    },
+    {
+      "country": "Mexico",
+      "iso3": "MEX",
+      "n": 90
+    },
+    {
+      "country": "Switzerland",
+      "iso3": "CHE",
+      "n": 90
+    },
+    {
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "n": 87
+    },
+    {
+      "country": "Belgium",
+      "iso3": "BEL",
+      "n": 86
+    },
+    {
+      "country": "Japan",
+      "iso3": "JPN",
+      "n": 85
+    },
+    {
+      "country": "Israel",
+      "iso3": "ISR",
+      "n": 81
+    },
+    {
+      "country": "Liberia",
+      "iso3": "LBR",
+      "n": 81
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso3": "ARE",
+      "n": 80
+    },
+    {
+      "country": "Malaysia",
+      "iso3": "MYS",
+      "n": 79
+    },
+    {
+      "country": "Rwanda",
+      "iso3": "RWA",
+      "n": 79
+    },
+    {
+      "country": "Sierra Leone",
+      "iso3": "SLE",
+      "n": 79
+    },
+    {
+      "country": "Chad",
+      "iso3": "TCD",
+      "n": 78
+    },
+    {
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "n": 72
+    },
+    {
+      "country": "Denmark",
+      "iso3": "DNK",
+      "n": 71
+    },
+    {
+      "country": "Gabon",
+      "iso3": "GAB",
+      "n": 71
+    },
+    {
+      "country": "Austria",
+      "iso3": "AUT",
+      "n": 70
+    },
+    {
+      "country": "Australia",
+      "iso3": "AUS",
+      "n": 68
+    },
+    {
+      "country": "Colombia",
+      "iso3": "COL",
+      "n": 68
+    },
+    {
+      "country": "Ghana",
+      "iso3": "GHA",
+      "n": 68
+    },
+    {
+      "country": "Ireland",
+      "iso3": "IRL",
+      "n": 68
+    },
+    {
+      "country": "New Zealand",
+      "iso3": "NZL",
+      "n": 67
+    },
+    {
+      "country": "Argentina",
+      "iso3": "ARG",
+      "n": 65
+    },
+    {
+      "country": "Cameroon",
+      "iso3": "CMR",
+      "n": 65
+    },
+    {
+      "country": "Niger",
+      "iso3": "NER",
+      "n": 64
+    },
+    {
+      "country": "Philippines",
+      "iso3": "PHL",
+      "n": 64
+    },
+    {
+      "country": "Ethiopia",
+      "iso3": "ETH",
+      "n": 62
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "iso3": "CIV",
+      "n": 61
+    },
+    {
+      "country": "Portugal",
+      "iso3": "PRT",
+      "n": 61
+    },
+    {
+      "country": "Sweden",
+      "iso3": "SWE",
+      "n": 61
+    },
+    {
+      "country": "Central African Republic",
+      "iso3": "CAF",
+      "n": 60
+    },
+    {
+      "country": "Panama",
+      "iso3": "PAN",
+      "n": 60
+    },
+    {
+      "country": "Burkina Faso",
+      "iso3": "BFA",
+      "n": 58
+    },
+    {
+      "country": "Cambodia",
+      "iso3": "KHM",
+      "n": 58
+    },
+    {
+      "country": "Norway",
+      "iso3": "NOR",
+      "n": 58
+    },
+    {
+      "country": "Qatar",
+      "iso3": "QAT",
+      "n": 57
+    },
+    {
+      "country": "Bangladesh",
+      "iso3": "BGD",
+      "n": 56
+    },
+    {
+      "country": "Costa Rica",
+      "iso3": "CRI",
+      "n": 56
+    },
+    {
+      "country": "El Salvador",
+      "iso3": "SLV",
+      "n": 56
+    },
+    {
+      "country": "Mali",
+      "iso3": "MLI",
+      "n": 55
+    },
+    {
+      "country": "Peru",
+      "iso3": "PER",
+      "n": 53
+    },
+    {
+      "country": "Republic of the Congo",
+      "iso3": "COG",
+      "n": 52
+    },
+    {
+      "country": "Burundi",
+      "iso3": "BDI",
+      "n": 50
+    },
+    {
+      "country": "Chile",
+      "iso3": "CHL",
+      "n": 50
+    },
+    {
+      "country": "Somalia",
+      "iso3": "SOM",
+      "n": 50
+    },
+    {
+      "country": "Poland",
+      "iso3": "POL",
+      "n": 49
+    },
+    {
+      "country": "Cuba",
+      "iso3": "CUB",
+      "n": 48
+    },
+    {
+      "country": "Guatemala",
+      "iso3": "GTM",
+      "n": 48
+    },
+    {
+      "country": "Pakistan",
+      "iso3": "PAK",
+      "n": 48
+    },
+    {
+      "country": "Benin",
+      "iso3": "BEN",
+      "n": 47
+    },
+    {
+      "country": "Ecuador",
+      "iso3": "ECU",
+      "n": 47
+    },
+    {
+      "country": "Togo",
+      "iso3": "TGO",
+      "n": 46
+    },
+    {
+      "country": "Turkey",
+      "iso3": "TUR",
+      "n": 46
+    },
+    {
+      "country": "Afghanistan",
+      "iso3": "AFG",
+      "n": 45
+    },
+    {
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "n": 45
+    },
+    {
+      "country": "Bolivia",
+      "iso3": "BOL",
+      "n": 42
+    },
+    {
+      "country": "Russia",
+      "iso3": "RUS",
+      "n": 42
+    },
+    {
+      "country": "Venezuela",
+      "iso3": "VEN",
+      "n": 42
+    },
+    {
+      "country": "Greece",
+      "iso3": "GRC",
+      "n": 41
+    },
+    {
+      "country": "Finland",
+      "iso3": "FIN",
+      "n": 40
+    },
+    {
+      "country": "Oman",
+      "iso3": "OMN",
+      "n": 40
+    },
+    {
+      "country": "Romania",
+      "iso3": "ROU",
+      "n": 40
+    },
+    {
+      "country": "Jordan",
+      "iso3": "JOR",
+      "n": 39
+    },
+    {
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "n": 38
+    },
+    {
+      "country": "Madagascar",
+      "iso3": "MDG",
+      "n": 37
+    },
+    {
+      "country": "Yemen",
+      "iso3": "YEM",
+      "n": 35
+    },
+    {
+      "country": "Kuwait",
+      "iso3": "KWT",
+      "n": 34
+    },
+    {
+      "country": "Paraguay",
+      "iso3": "PRY",
+      "n": 32
+    },
+    {
+      "country": "Honduras",
+      "iso3": "HND",
+      "n": 31
+    },
+    {
+      "country": "Iraq",
+      "iso3": "IRQ",
+      "n": 31
+    },
+    {
+      "country": "Ukraine",
+      "iso3": "UKR",
+      "n": 31
+    },
+    {
+      "country": "Iran",
+      "iso3": "IRN",
+      "n": 30
+    },
+    {
+      "country": "Dominican Republic",
+      "iso3": "DOM",
+      "n": 29
+    },
+    {
+      "country": "Iceland",
+      "iso3": "ISL",
+      "n": 29
+    },
+    {
+      "country": "Bulgaria",
+      "iso3": "BGR",
+      "n": 28
+    },
+    {
+      "country": "Laos",
+      "iso3": "LAO",
+      "n": 27
+    },
+    {
+      "country": "Lebanon",
+      "iso3": "LBN",
+      "n": 27
+    },
+    {
+      "country": "Bahrain",
+      "iso3": "BHR",
+      "n": 26
+    },
+    {
+      "country": "Cyprus",
+      "iso3": "CYP",
+      "n": 26
+    },
+    {
+      "country": "Uruguay",
+      "iso3": "URY",
+      "n": 26
+    },
+    {
+      "country": "Nicaragua",
+      "iso3": "NIC",
+      "n": 25
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "iso3": "TTO",
+      "n": 25
+    },
+    {
+      "country": "Zimbabwe",
+      "iso3": "ZWE",
+      "n": 25
+    },
+    {
+      "country": "Hungary",
+      "iso3": "HUN",
+      "n": 24
+    },
+    {
+      "country": "Malawi",
+      "iso3": "MWI",
+      "n": 23
+    },
+    {
+      "country": "Slovakia",
+      "iso3": "SVK",
+      "n": 23
+    },
+    {
+      "country": "Algeria",
+      "iso3": "DZA",
+      "n": 22
+    },
+    {
+      "country": "Equatorial Guinea",
+      "iso3": "GNQ",
+      "n": 22
+    },
+    {
+      "country": "Morocco",
+      "iso3": "MAR",
+      "n": 22
+    },
+    {
+      "country": "Slovenia",
+      "iso3": "SVN",
+      "n": 22
+    },
+    {
+      "country": "Jamaica",
+      "iso3": "JAM",
+      "n": 21
+    },
+    {
+      "country": "Luxembourg",
+      "iso3": "LUX",
+      "n": 21
+    },
+    {
+      "country": "Tunisia",
+      "iso3": "TUN",
+      "n": 21
+    },
+    {
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "n": 20
+    },
+    {
+      "country": "Sri Lanka",
+      "iso3": "LKA",
+      "n": 20
+    },
+    {
+      "country": "Mongolia",
+      "iso3": "MNG",
+      "n": 19
+    },
+    {
+      "country": "Nepal",
+      "iso3": "NPL",
+      "n": 19
+    },
+    {
+      "country": "Bahamas",
+      "iso3": "BHS",
+      "n": 18
+    },
+    {
+      "country": "Barbados",
+      "iso3": "BRB",
+      "n": 18
+    },
+    {
+      "country": "Czechia",
+      "iso3": "CZE",
+      "n": 18
+    },
+    {
+      "country": "Estonia",
+      "iso3": "EST",
+      "n": 18
+    },
+    {
+      "country": "Serbia",
+      "iso3": "SRB",
+      "n": 18
+    },
+    {
+      "country": "Suriname",
+      "iso3": "SUR",
+      "n": 17
+    },
+    {
+      "country": "Haiti",
+      "iso3": "HTI",
+      "n": 16
+    },
+    {
+      "country": "Mauritius",
+      "iso3": "MUS",
+      "n": 16
+    },
+    {
+      "country": "Dominica",
+      "iso3": "DMA",
+      "n": 15
+    },
+    {
+      "country": "Mauritania",
+      "iso3": "MRT",
+      "n": 15
+    },
+    {
+      "country": "Djibouti",
+      "iso3": "DJI",
+      "n": 14
+    },
+    {
+      "country": "Fiji",
+      "iso3": "FJI",
+      "n": 14
+    },
+    {
+      "country": "Georgia",
+      "iso3": "GEO",
+      "n": 14
+    },
+    {
+      "country": "Kosovo",
+      "iso3": "XKX",
+      "n": 14
+    },
+    {
+      "country": "Latvia",
+      "iso3": "LVA",
+      "n": 13
+    },
+    {
+      "country": "Papua New Guinea",
+      "iso3": "PNG",
+      "n": 13
+    },
+    {
+      "country": "Comoros",
+      "iso3": "COM",
+      "n": 12
+    },
+    {
+      "country": "Palestine",
+      "iso3": "PSE",
+      "n": 12
+    },
+    {
+      "country": "Samoa",
+      "iso3": "WSM",
+      "n": 12
+    },
+    {
+      "country": "Seychelles",
+      "iso3": "SYC",
+      "n": 12
+    },
+    {
+      "country": "Syria",
+      "iso3": "SYR",
+      "n": 12
+    },
+    {
+      "country": "Gambia",
+      "iso3": "GMB",
+      "n": 11
+    },
+    {
+      "country": "Moldova",
+      "iso3": "MDA",
+      "n": 11
+    },
+    {
+      "country": "Tajikistan",
+      "iso3": "TJK",
+      "n": 10
+    },
+    {
+      "country": "Brunei",
+      "iso3": "BRN",
+      "n": 9
+    },
+    {
+      "country": "Guinea-Bissau",
+      "iso3": "GNB",
+      "n": 9
+    },
+    {
+      "country": "Namibia",
+      "iso3": "NAM",
+      "n": 9
+    },
+    {
+      "country": "Cabo Verde",
+      "iso3": "CPV",
+      "n": 8
+    },
+    {
+      "country": "Croatia",
+      "iso3": "HRV",
+      "n": 8
+    },
+    {
+      "country": "Kyrgyzstan",
+      "iso3": "KGZ",
+      "n": 8
+    },
+    {
+      "country": "Maldives",
+      "iso3": "MDV",
+      "n": 8
+    },
+    {
+      "country": "Montenegro",
+      "iso3": "MNE",
+      "n": 8
+    },
+    {
+      "country": "Timor-Leste",
+      "iso3": "TLS",
+      "n": 8
+    },
+    {
+      "country": "Azerbaijan",
+      "iso3": "AZE",
+      "n": 7
+    },
+    {
+      "country": "Botswana",
+      "iso3": "BWA",
+      "n": 7
+    },
+    {
+      "country": "Kazakhstan",
+      "iso3": "KAZ",
+      "n": 7
+    },
+    {
+      "country": "Lithuania",
+      "iso3": "LTU",
+      "n": 7
+    },
+    {
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "n": 7
+    },
+    {
+      "country": "Albania",
+      "iso3": "ALB",
+      "n": 6
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "iso3": "ATG",
+      "n": 6
+    },
+    {
+      "country": "Armenia",
+      "iso3": "ARM",
+      "n": 6
+    },
+    {
+      "country": "Belarus",
+      "iso3": "BLR",
+      "n": 6
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "iso3": "BIH",
+      "n": 6
+    },
+    {
+      "country": "Guyana",
+      "iso3": "GUY",
+      "n": 6
+    },
+    {
+      "country": "Uzbekistan",
+      "iso3": "UZB",
+      "n": 6
+    },
+    {
+      "country": "Belize",
+      "iso3": "BLZ",
+      "n": 4
+    },
+    {
+      "country": "Eritrea",
+      "iso3": "ERI",
+      "n": 4
+    },
+    {
+      "country": "Lesotho",
+      "iso3": "LSO",
+      "n": 4
+    },
+    {
+      "country": "Micronesia",
+      "iso3": "FSM",
+      "n": 4
+    },
+    {
+      "country": "Monaco",
+      "iso3": "MCO",
+      "n": 4
+    },
+    {
+      "country": "Saint Lucia",
+      "iso3": "LCA",
+      "n": 4
+    },
+    {
+      "country": "Andorra",
+      "iso3": "AND",
+      "n": 3
+    },
+    {
+      "country": "Malta",
+      "iso3": "MLT",
+      "n": 3
+    },
+    {
+      "country": "North Korea",
+      "iso3": "PRK",
+      "n": 3
+    },
+    {
+      "country": "Tonga",
+      "iso3": "TON",
+      "n": 3
+    },
+    {
+      "country": "Turkmenistan",
+      "iso3": "TKM",
+      "n": 3
+    },
+    {
+      "country": "Bhutan",
+      "iso3": "BTN",
+      "n": 2
+    },
+    {
+      "country": "Libya",
+      "iso3": "LBY",
+      "n": 2
+    },
+    {
+      "country": "North Macedonia",
+      "iso3": "MKD",
+      "n": 2
+    },
+    {
+      "country": "Palau",
+      "iso3": "PLW",
+      "n": 2
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "iso3": "VCT",
+      "n": 2
+    },
+    {
+      "country": "Solomon Islands",
+      "iso3": "SLB",
+      "n": 2
+    },
+    {
+      "country": "Eswatini",
+      "iso3": "SWZ",
+      "n": 1
+    },
+    {
+      "country": "Grenada",
+      "iso3": "GRD",
+      "n": 1
+    },
+    {
+      "country": "Kiribati",
+      "iso3": "KIR",
+      "n": 1
+    },
+    {
+      "country": "Liechtenstein",
+      "iso3": "LIE",
+      "n": 1
+    },
+    {
+      "country": "Marshall Islands",
+      "iso3": "MHL",
+      "n": 1
+    },
+    {
+      "country": "Nauru",
+      "iso3": "NRU",
+      "n": 1
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "iso3": "KNA",
+      "n": 1
+    },
+    {
+      "country": "San Marino",
+      "iso3": "SMR",
+      "n": 1
+    },
+    {
+      "country": "Sao Tome and Principe",
+      "iso3": "STP",
+      "n": 1
+    },
+    {
+      "country": "Tuvalu",
+      "iso3": "TUV",
+      "n": 1
+    }
+  ],
+  "strict_countries": [
+    {
+      "country": "China",
+      "iso3": "CHN",
+      "n": 251
+    },
+    {
+      "country": "Saudi Arabia",
+      "iso3": "SAU",
+      "n": 206
+    },
+    {
+      "country": "Democratic Republic of the Congo",
+      "iso3": "COD",
+      "n": 179
+    },
+    {
+      "country": "Indonesia",
+      "iso3": "IDN",
+      "n": 149
+    },
+    {
+      "country": "Egypt",
+      "iso3": "EGY",
+      "n": 114
+    },
+    {
+      "country": "Vietnam",
+      "iso3": "VNM",
+      "n": 69
+    },
+    {
+      "country": "United States",
+      "iso3": "USA",
+      "n": 63
+    },
+    {
+      "country": "Brazil",
+      "iso3": "BRA",
+      "n": 62
+    },
+    {
+      "country": "Mexico",
+      "iso3": "MEX",
+      "n": 57
+    },
+    {
+      "country": "Uganda",
+      "iso3": "UGA",
+      "n": 57
+    },
+    {
+      "country": "France",
+      "iso3": "FRA",
+      "n": 55
+    },
+    {
+      "country": "Nigeria",
+      "iso3": "NGA",
+      "n": 55
+    },
+    {
+      "country": "Guinea",
+      "iso3": "GIN",
+      "n": 54
+    },
+    {
+      "country": "United Arab Emirates",
+      "iso3": "ARE",
+      "n": 52
+    },
+    {
+      "country": "United Kingdom",
+      "iso3": "GBR",
+      "n": 47
+    },
+    {
+      "country": "India",
+      "iso3": "IND",
+      "n": 46
+    },
+    {
+      "country": "Canada",
+      "iso3": "CAN",
+      "n": 44
+    },
+    {
+      "country": "Netherlands",
+      "iso3": "NLD",
+      "n": 42
+    },
+    {
+      "country": "Thailand",
+      "iso3": "THA",
+      "n": 40
+    },
+    {
+      "country": "Spain",
+      "iso3": "ESP",
+      "n": 38
+    },
+    {
+      "country": "Cambodia",
+      "iso3": "KHM",
+      "n": 37
+    },
+    {
+      "country": "Italy",
+      "iso3": "ITA",
+      "n": 37
+    },
+    {
+      "country": "Peru",
+      "iso3": "PER",
+      "n": 37
+    },
+    {
+      "country": "Sudan",
+      "iso3": "SDN",
+      "n": 35
+    },
+    {
+      "country": "Angola",
+      "iso3": "AGO",
+      "n": 34
+    },
+    {
+      "country": "Argentina",
+      "iso3": "ARG",
+      "n": 34
+    },
+    {
+      "country": "Burkina Faso",
+      "iso3": "BFA",
+      "n": 34
+    },
+    {
+      "country": "Chile",
+      "iso3": "CHL",
+      "n": 34
+    },
+    {
+      "country": "Malaysia",
+      "iso3": "MYS",
+      "n": 34
+    },
+    {
+      "country": "Philippines",
+      "iso3": "PHL",
+      "n": 34
+    },
+    {
+      "country": "Ecuador",
+      "iso3": "ECU",
+      "n": 32
+    },
+    {
+      "country": "Germany",
+      "iso3": "DEU",
+      "n": 32
+    },
+    {
+      "country": "Liberia",
+      "iso3": "LBR",
+      "n": 32
+    },
+    {
+      "country": "Turkey",
+      "iso3": "TUR",
+      "n": 31
+    },
+    {
+      "country": "Australia",
+      "iso3": "AUS",
+      "n": 30
+    },
+    {
+      "country": "Denmark",
+      "iso3": "DNK",
+      "n": 30
+    },
+    {
+      "country": "Japan",
+      "iso3": "JPN",
+      "n": 30
+    },
+    {
+      "country": "Panama",
+      "iso3": "PAN",
+      "n": 30
+    },
+    {
+      "country": "Portugal",
+      "iso3": "PRT",
+      "n": 30
+    },
+    {
+      "country": "Qatar",
+      "iso3": "QAT",
+      "n": 30
+    },
+    {
+      "country": "Belgium",
+      "iso3": "BEL",
+      "n": 29
+    },
+    {
+      "country": "Colombia",
+      "iso3": "COL",
+      "n": 29
+    },
+    {
+      "country": "Cuba",
+      "iso3": "CUB",
+      "n": 29
+    },
+    {
+      "country": "Israel",
+      "iso3": "ISR",
+      "n": 29
+    },
+    {
+      "country": "Singapore",
+      "iso3": "SGP",
+      "n": 29
+    },
+    {
+      "country": "South Korea",
+      "iso3": "KOR",
+      "n": 29
+    },
+    {
+      "country": "Sweden",
+      "iso3": "SWE",
+      "n": 29
+    },
+    {
+      "country": "Austria",
+      "iso3": "AUT",
+      "n": 28
+    },
+    {
+      "country": "El Salvador",
+      "iso3": "SLV",
+      "n": 28
+    },
+    {
+      "country": "Norway",
+      "iso3": "NOR",
+      "n": 27
+    },
+    {
+      "country": "Guatemala",
+      "iso3": "GTM",
+      "n": 26
+    },
+    {
+      "country": "Ireland",
+      "iso3": "IRL",
+      "n": 26
+    },
+    {
+      "country": "Poland",
+      "iso3": "POL",
+      "n": 26
+    },
+    {
+      "country": "Russia",
+      "iso3": "RUS",
+      "n": 26
+    },
+    {
+      "country": "Costa Rica",
+      "iso3": "CRI",
+      "n": 25
+    },
+    {
+      "country": "Greece",
+      "iso3": "GRC",
+      "n": 25
+    },
+    {
+      "country": "Sierra Leone",
+      "iso3": "SLE",
+      "n": 25
+    },
+    {
+      "country": "Switzerland",
+      "iso3": "CHE",
+      "n": 25
+    },
+    {
+      "country": "Bangladesh",
+      "iso3": "BGD",
+      "n": 24
+    },
+    {
+      "country": "Finland",
+      "iso3": "FIN",
+      "n": 24
+    },
+    {
+      "country": "Honduras",
+      "iso3": "HND",
+      "n": 24
+    },
+    {
+      "country": "Kenya",
+      "iso3": "KEN",
+      "n": 24
+    },
+    {
+      "country": "Kuwait",
+      "iso3": "KWT",
+      "n": 24
+    },
+    {
+      "country": "New Zealand",
+      "iso3": "NZL",
+      "n": 24
+    },
+    {
+      "country": "Niger",
+      "iso3": "NER",
+      "n": 24
+    },
+    {
+      "country": "Senegal",
+      "iso3": "SEN",
+      "n": 23
+    },
+    {
+      "country": "South Africa",
+      "iso3": "ZAF",
+      "n": 23
+    },
+    {
+      "country": "Bolivia",
+      "iso3": "BOL",
+      "n": 22
+    },
+    {
+      "country": "Chad",
+      "iso3": "TCD",
+      "n": 22
+    },
+    {
+      "country": "Gabon",
+      "iso3": "GAB",
+      "n": 22
+    },
+    {
+      "country": "Jordan",
+      "iso3": "JOR",
+      "n": 22
+    },
+    {
+      "country": "Oman",
+      "iso3": "OMN",
+      "n": 22
+    },
+    {
+      "country": "Venezuela",
+      "iso3": "VEN",
+      "n": 22
+    },
+    {
+      "country": "Iceland",
+      "iso3": "ISL",
+      "n": 21
+    },
+    {
+      "country": "Madagascar",
+      "iso3": "MDG",
+      "n": 21
+    },
+    {
+      "country": "Paraguay",
+      "iso3": "PRY",
+      "n": 21
+    },
+    {
+      "country": "Bahrain",
+      "iso3": "BHR",
+      "n": 20
+    },
+    {
+      "country": "Ethiopia",
+      "iso3": "ETH",
+      "n": 20
+    },
+    {
+      "country": "Lebanon",
+      "iso3": "LBN",
+      "n": 20
+    },
+    {
+      "country": "Nicaragua",
+      "iso3": "NIC",
+      "n": 20
+    },
+    {
+      "country": "Republic of the Congo",
+      "iso3": "COG",
+      "n": 20
+    },
+    {
+      "country": "Uruguay",
+      "iso3": "URY",
+      "n": 20
+    },
+    {
+      "country": "Dominican Republic",
+      "iso3": "DOM",
+      "n": 19
+    },
+    {
+      "country": "Romania",
+      "iso3": "ROU",
+      "n": 19
+    },
+    {
+      "country": "Cote d'Ivoire",
+      "iso3": "CIV",
+      "n": 18
+    },
+    {
+      "country": "Iraq",
+      "iso3": "IRQ",
+      "n": 18
+    },
+    {
+      "country": "Jamaica",
+      "iso3": "JAM",
+      "n": 18
+    },
+    {
+      "country": "Laos",
+      "iso3": "LAO",
+      "n": 18
+    },
+    {
+      "country": "South Sudan",
+      "iso3": "SSD",
+      "n": 18
+    },
+    {
+      "country": "Slovakia",
+      "iso3": "SVK",
+      "n": 17
+    },
+    {
+      "country": "Somalia",
+      "iso3": "SOM",
+      "n": 17
+    },
+    {
+      "country": "Tanzania",
+      "iso3": "TZA",
+      "n": 17
+    },
+    {
+      "country": "Ukraine",
+      "iso3": "UKR",
+      "n": 17
+    },
+    {
+      "country": "Yemen",
+      "iso3": "YEM",
+      "n": 17
+    },
+    {
+      "country": "Bahamas",
+      "iso3": "BHS",
+      "n": 16
+    },
+    {
+      "country": "Barbados",
+      "iso3": "BRB",
+      "n": 16
+    },
+    {
+      "country": "Cameroon",
+      "iso3": "CMR",
+      "n": 16
+    },
+    {
+      "country": "Cyprus",
+      "iso3": "CYP",
+      "n": 16
+    },
+    {
+      "country": "Estonia",
+      "iso3": "EST",
+      "n": 16
+    },
+    {
+      "country": "Hungary",
+      "iso3": "HUN",
+      "n": 16
+    },
+    {
+      "country": "Pakistan",
+      "iso3": "PAK",
+      "n": 16
+    },
+    {
+      "country": "Bulgaria",
+      "iso3": "BGR",
+      "n": 15
+    },
+    {
+      "country": "Algeria",
+      "iso3": "DZA",
+      "n": 14
+    },
+    {
+      "country": "Dominica",
+      "iso3": "DMA",
+      "n": 14
+    },
+    {
+      "country": "Luxembourg",
+      "iso3": "LUX",
+      "n": 14
+    },
+    {
+      "country": "Mali",
+      "iso3": "MLI",
+      "n": 14
+    },
+    {
+      "country": "Trinidad and Tobago",
+      "iso3": "TTO",
+      "n": 14
+    },
+    {
+      "country": "Ghana",
+      "iso3": "GHA",
+      "n": 11
+    },
+    {
+      "country": "Papua New Guinea",
+      "iso3": "PNG",
+      "n": 11
+    },
+    {
+      "country": "Rwanda",
+      "iso3": "RWA",
+      "n": 11
+    },
+    {
+      "country": "Sri Lanka",
+      "iso3": "LKA",
+      "n": 11
+    },
+    {
+      "country": "Morocco",
+      "iso3": "MAR",
+      "n": 10
+    },
+    {
+      "country": "Samoa",
+      "iso3": "WSM",
+      "n": 10
+    },
+    {
+      "country": "Togo",
+      "iso3": "TGO",
+      "n": 10
+    },
+    {
+      "country": "Tunisia",
+      "iso3": "TUN",
+      "n": 10
+    },
+    {
+      "country": "Afghanistan",
+      "iso3": "AFG",
+      "n": 9
+    },
+    {
+      "country": "Benin",
+      "iso3": "BEN",
+      "n": 9
+    },
+    {
+      "country": "Burundi",
+      "iso3": "BDI",
+      "n": 9
+    },
+    {
+      "country": "Fiji",
+      "iso3": "FJI",
+      "n": 9
+    },
+    {
+      "country": "Haiti",
+      "iso3": "HTI",
+      "n": 9
+    },
+    {
+      "country": "Suriname",
+      "iso3": "SUR",
+      "n": 9
+    },
+    {
+      "country": "Iran",
+      "iso3": "IRN",
+      "n": 8
+    },
+    {
+      "country": "Mauritania",
+      "iso3": "MRT",
+      "n": 8
+    },
+    {
+      "country": "Mozambique",
+      "iso3": "MOZ",
+      "n": 8
+    },
+    {
+      "country": "Malawi",
+      "iso3": "MWI",
+      "n": 7
+    },
+    {
+      "country": "Slovenia",
+      "iso3": "SVN",
+      "n": 7
+    },
+    {
+      "country": "Antigua and Barbuda",
+      "iso3": "ATG",
+      "n": 6
+    },
+    {
+      "country": "Brunei",
+      "iso3": "BRN",
+      "n": 6
+    },
+    {
+      "country": "Central African Republic",
+      "iso3": "CAF",
+      "n": 6
+    },
+    {
+      "country": "Latvia",
+      "iso3": "LVA",
+      "n": 6
+    },
+    {
+      "country": "Serbia",
+      "iso3": "SRB",
+      "n": 6
+    },
+    {
+      "country": "Zambia",
+      "iso3": "ZMB",
+      "n": 6
+    },
+    {
+      "country": "Zimbabwe",
+      "iso3": "ZWE",
+      "n": 6
+    },
+    {
+      "country": "Equatorial Guinea",
+      "iso3": "GNQ",
+      "n": 5
+    },
+    {
+      "country": "Montenegro",
+      "iso3": "MNE",
+      "n": 5
+    },
+    {
+      "country": "Myanmar",
+      "iso3": "MMR",
+      "n": 5
+    },
+    {
+      "country": "Nepal",
+      "iso3": "NPL",
+      "n": 5
+    },
+    {
+      "country": "Syria",
+      "iso3": "SYR",
+      "n": 5
+    },
+    {
+      "country": "Vanuatu",
+      "iso3": "VUT",
+      "n": 5
+    },
+    {
+      "country": "Mauritius",
+      "iso3": "MUS",
+      "n": 4
+    },
+    {
+      "country": "Namibia",
+      "iso3": "NAM",
+      "n": 4
+    },
+    {
+      "country": "Seychelles",
+      "iso3": "SYC",
+      "n": 4
+    },
+    {
+      "country": "Timor-Leste",
+      "iso3": "TLS",
+      "n": 4
+    },
+    {
+      "country": "Croatia",
+      "iso3": "HRV",
+      "n": 3
+    },
+    {
+      "country": "Gambia",
+      "iso3": "GMB",
+      "n": 3
+    },
+    {
+      "country": "Georgia",
+      "iso3": "GEO",
+      "n": 3
+    },
+    {
+      "country": "Kosovo",
+      "iso3": "XKX",
+      "n": 3
+    },
+    {
+      "country": "Lithuania",
+      "iso3": "LTU",
+      "n": 3
+    },
+    {
+      "country": "Saint Lucia",
+      "iso3": "LCA",
+      "n": 3
+    },
+    {
+      "country": "Tajikistan",
+      "iso3": "TJK",
+      "n": 3
+    },
+    {
+      "country": "Azerbaijan",
+      "iso3": "AZE",
+      "n": 2
+    },
+    {
+      "country": "Belize",
+      "iso3": "BLZ",
+      "n": 2
+    },
+    {
+      "country": "Guinea-Bissau",
+      "iso3": "GNB",
+      "n": 2
+    },
+    {
+      "country": "Guyana",
+      "iso3": "GUY",
+      "n": 2
+    },
+    {
+      "country": "Kyrgyzstan",
+      "iso3": "KGZ",
+      "n": 2
+    },
+    {
+      "country": "Maldives",
+      "iso3": "MDV",
+      "n": 2
+    },
+    {
+      "country": "Malta",
+      "iso3": "MLT",
+      "n": 2
+    },
+    {
+      "country": "Micronesia",
+      "iso3": "FSM",
+      "n": 2
+    },
+    {
+      "country": "Palau",
+      "iso3": "PLW",
+      "n": 2
+    },
+    {
+      "country": "Saint Vincent and the Grenadines",
+      "iso3": "VCT",
+      "n": 2
+    },
+    {
+      "country": "Tonga",
+      "iso3": "TON",
+      "n": 2
+    },
+    {
+      "country": "Albania",
+      "iso3": "ALB",
+      "n": 1
+    },
+    {
+      "country": "Andorra",
+      "iso3": "AND",
+      "n": 1
+    },
+    {
+      "country": "Armenia",
+      "iso3": "ARM",
+      "n": 1
+    },
+    {
+      "country": "Bosnia and Herzegovina",
+      "iso3": "BIH",
+      "n": 1
+    },
+    {
+      "country": "Botswana",
+      "iso3": "BWA",
+      "n": 1
+    },
+    {
+      "country": "Comoros",
+      "iso3": "COM",
+      "n": 1
+    },
+    {
+      "country": "Djibouti",
+      "iso3": "DJI",
+      "n": 1
+    },
+    {
+      "country": "Kazakhstan",
+      "iso3": "KAZ",
+      "n": 1
+    },
+    {
+      "country": "Libya",
+      "iso3": "LBY",
+      "n": 1
+    },
+    {
+      "country": "Marshall Islands",
+      "iso3": "MHL",
+      "n": 1
+    },
+    {
+      "country": "Monaco",
+      "iso3": "MCO",
+      "n": 1
+    },
+    {
+      "country": "Saint Kitts and Nevis",
+      "iso3": "KNA",
+      "n": 1
+    },
+    {
+      "country": "Solomon Islands",
+      "iso3": "SLB",
+      "n": 1
+    }
+  ]
+}
